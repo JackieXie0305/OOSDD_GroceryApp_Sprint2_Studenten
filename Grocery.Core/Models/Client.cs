@@ -1,14 +1,16 @@
 ﻿
+using System.Net.Mail;
+
 namespace Grocery.Core.Models
 {
     public partial class Client : Model
     {
-        private string _emailAddress;
-        private string _password { get; set; }
+        public string emailAddress { get; set; } = string.Empty;
+        public string password { get; set; } = string.Empty;
         public Client(int id, string name, string emailAddress, string password) : base(id, name)
         {
-            emailAddress=emailAddress;
-            password=password;
+            this.emailAddress = emailAddress;
+            this.password = password;
         }
     }
 }
