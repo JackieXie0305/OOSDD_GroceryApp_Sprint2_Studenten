@@ -9,7 +9,7 @@ on:
     branches:
       - main
       - develop
- 
+      - feature/UC5
 jobs:
   test:
     runs-on: ubuntu-latest  # Of windows-latest/macOS-latest als specifiek platform nodig is
