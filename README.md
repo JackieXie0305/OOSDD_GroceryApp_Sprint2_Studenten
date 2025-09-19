@@ -1,5 +1,39 @@
 # GroceryApp sprint2 
 
+#Branching Strategie
+
+Om overzicht te houden, werk ik met een vaste branching-strategie.
+
+## Hoofdbranches
+- **main**  
+  - Hier staat altijd de stabiele code (productieversie).  
+- **develop**  
+  - Hier werk ik samen met de rest van het team. Nieuwe code gaat altijd eerst naar `develop`.  
+
+## Feature branches
+- Voor elke use case maak ik een aparte branch:  
+  - `feature/UC5`  
+  - `feature/UC6`  
+- Als ik klaar ben, maak ik een Pull Request naar `develop`.  
+
+## Bugfixes
+- Voor kleine foutjes maak ik een branch:  
+  - `bugfix/[korte-omschrijving]`  
+- Na de fix merge ik die ook terug naar `develop`.  
+
+## Workflow
+1. Ik begin altijd vanaf `develop`.  
+2. Ik maak een nieuwe branch (`feature/UCx` of `bugfix/...`).  
+3. Ik commit en push mijn werk.  
+4. Als ik klaar ben, maak ik een Pull Request naar `develop`.  
+5. Alleen stabiele releases worden van `develop` → `main` gezet.  
+
+## Kort overzicht
+- **main** = stabiel  
+- **develop** = actieve ontwikkeling  
+- **feature/** = nieuwe use cases  
+- **bugfix/** = foutjes oplossen  
+
 ## Docentversie  
 In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.  
 
