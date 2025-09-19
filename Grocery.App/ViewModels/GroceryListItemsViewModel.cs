@@ -36,6 +36,8 @@ namespace Grocery.App.ViewModels
         {
             AvailableProducts.Clear();
 
+            var allProducts = _productService.GetAll();
+
 
             //Maak de lijst AvailableProducts leeg
             //Haal de lijst met producten op
