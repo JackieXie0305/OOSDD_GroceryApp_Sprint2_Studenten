@@ -9,6 +9,7 @@ on:
     branches:
       - main
       - develop
+      - feature/UC6
       - feature/UC5
 jobs:
   test:
