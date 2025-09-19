@@ -1,6 +1,4 @@
-## GroceryApp sprint2 
-
-##Branching Strategie
+##GroceryApp sprint2 
 
 Om overzicht te houden, werk ik met een vaste branching-strategie.
 
@@ -9,7 +7,7 @@ Om overzicht te houden, werk ik met een vaste branching-strategie.
 Ik werk met de volgende branchestructuur:
 
 ##Main branch 
-  Bevat altijd een stabiele versie van het project en wordt alleen bijgewerkt met releases.  
+Bevat altijd een stabiele versie van het project en wordt alleen bijgewerkt met releases.  
 
 ##Develop branch 
 Hier doe ik de actieve ontwikkeling. Nieuwe feature branches worden hieraan toegevoegd en samengevoegd.  
