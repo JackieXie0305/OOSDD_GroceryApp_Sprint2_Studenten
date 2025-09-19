@@ -34,6 +34,9 @@ namespace Grocery.App.ViewModels
 
         private void GetAvailableProducts()
         {
+            AvailableProducts.Clear();
+
+
             //Maak de lijst AvailableProducts leeg
             //Haal de lijst met producten op
             //Controleer of het product al op de boodschappenlijst staat, zo niet zet het in de AvailableProducts lijst
