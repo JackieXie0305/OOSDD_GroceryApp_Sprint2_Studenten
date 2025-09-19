@@ -4,35 +4,34 @@
 
 Om overzicht te houden, werk ik met een vaste branching-strategie.
 
-## Hoofdbranches
-- **main**  
-  - Hier staat altijd de stabiele code (productieversie).  
-- **develop**  
-  - Hier werk ik samen met de rest van het team. Nieuwe code gaat altijd eerst naar `develop`.  
+#Branching Strategie
 
-## Feature branches
-- Voor elke use case maak ik een aparte branch:  
-  - `feature/UC5`  
-  - `feature/UC6`  
-- Als ik klaar ben, maak ik een Pull Request naar `develop`.  
+Ik werk met de volgende branchestructuur:
 
-## Bugfixes
-- Voor kleine foutjes maak ik een branch:  
-  - `bugfix/[korte-omschrijving]`  
-- Na de fix merge ik die ook terug naar `develop`.  
+##Main branch 
+  Bevat altijd een stabiele versie van het project en wordt alleen bijgewerkt met releases.  
+
+##Develop branch 
+Hier doe ik de actieve ontwikkeling. Nieuwe feature branches worden hieraan toegevoegd en samengevoegd.  
+
+##Feature branches 
+Nieuwe functionaliteiten ontwikkel ik in feature branches die afgetakt zijn van `develop`.  
+
+## Release branches
+Wanneer ik een nieuwe versie voorbereid, maak ik een release branch aan.  
+Daar kan ik nog laatste fixes of documentatie toevoegen voordat ik merge naar `main`.  
+
+## Hotfix branches
+Voor kritieke bugs in productie maak ik een aparte hotfix-branch.  
+Deze fix merge ik direct naar `main` en daarna ook terug naar `develop`.  
 
 ## Workflow
 1. Ik begin altijd vanaf `develop`.  
 2. Ik maak een nieuwe branch (`feature/UCx` of `bugfix/...`).  
 3. Ik commit en push mijn werk.  
 4. Als ik klaar ben, maak ik een Pull Request naar `develop`.  
-5. Alleen stabiele releases worden van `develop` → `main` gezet.  
-
-## Kort overzicht
-- **main** = stabiel  
-- **develop** = actieve ontwikkeling  
-- **feature/** = nieuwe use cases  
-- **bugfix/** = foutjes oplossen  
+5. Alleen stabiele releases worden van `develop` → `release` →'main' gezet.  
+  
 
 ## Docentversie  
 In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.  
