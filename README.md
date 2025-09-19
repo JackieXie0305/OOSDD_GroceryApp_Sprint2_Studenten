@@ -1,10 +1,10 @@
-# GroceryApp sprint2 
+## GroceryApp sprint2 
 
-#Branching Strategie
+##Branching Strategie
 
 Om overzicht te houden, werk ik met een vaste branching-strategie.
 
-#Branching Strategie
+##Branching Strategie
 
 Ik werk met de volgende branchestructuur:
 
