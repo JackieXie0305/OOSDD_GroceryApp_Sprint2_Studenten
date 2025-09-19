@@ -7,8 +7,8 @@ namespace Grocery.Core.Models
         private string _password { get; set; }
         public Client(int id, string name, string emailAddress, string password) : base(id, name)
         {
-            _emailAddress=emailAddress;
-            _password=password;
+            emailAddress=emailAddress;
+            password=password;
         }
     }
 }
